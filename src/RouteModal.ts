@@ -1,5 +1,5 @@
 import {Component, Input, Output, EventEmitter, ElementRef, ViewChild, OnDestroy, OnInit} from "@angular/core";
-import {NavigationExtras} from "@angular/router/src/router";
+import { NavigationExtras } from "@angular/router";
 import {Router, ActivatedRoute} from "@angular/router";
 
 @Component({
@@ -67,7 +67,7 @@ export class RouteModal implements OnInit, OnDestroy {
     public submitButtonLabel: string;
 
     @Input()
-    public backdrop:boolen = true;
+    public backdrop:boolean = true;
 
     // -------------------------------------------------------------------------
     // Outputs
